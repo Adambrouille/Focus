@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f2f2;
+    animation: opacity 3s;
+    transition: 3s;
+}
+.navbar{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.navbar .logo .fas{
+    color: #c00f7f;
+    font-size: 200px;
+    animation: translate 3s;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    margin: 80px 250px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 1000px;
+}
+section h1{
+    margin: 0 10px;
+}
+section .mémoire .astuce1 .app{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+section .mémoire .app{
+    margin: 50px 0;
+}
+section .mémoire .astuce1 p{
+    margin: 25px 10px;
+    font-size: 20px;
+}
+section .mémoire .astuce1 .app img{
+    width: 200px;
+    border-radius: 1rem/1rem;
+}
+section .mémoire .astuce1 .app a{
+    text-decoration: none;
+    color: rgb(109, 105, 105);
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+section .mémoire .astuce1 .app a:hover{
+    color: #b59e9e;
+}
+section .mémoire .astuce2 p{
+    margin: 25px 10px;
+    font-size: 20px;
+}
+section .mémoire .astuce2 .app{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+section .mémoire .astuce2 .app img{
+    width: 200px;
+    margin: 25px 0;
+}
+section .mémoire .astuce2 .app a{
+    text-decoration: none;
+    color: rgb(109, 105, 105);
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+section .mémoire .astuce2 .app a:hover{
+    color: #b59e9e;
+}
+section .mémoire .astuce3 p{
+    margin: 25px 10px;
+    font-size: 20px;
+}
+section .mémoire .astuce3 .app{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+section .mémoire .astuce3 .app a{
+    text-decoration: none;
+    color: rgb(109, 105, 105);
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+section .mémoire .astuce3 .app a:hover{
+    color: #b59e9e;
+}
+section .concentration .astuce1 p{
+    margin: 25px 10px;
+    font-size: 20px;
+}
+section .concentration .astuce1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+section .concentration .astuce1 iframe{
+    border-radius: 1rem/1rem;
+    margin: 25px 0;
+}
+section .concentration .astuce2 p{
+    margin: 25px 10px;
+    font-size: 20px;
+}
+section .concentration .astuce2 img{
+    width: 200px;
+    margin: 25px 0;
+    border-radius: 1rem/1rem;
+}
+section .concentration .astuce2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+section .concentration .astuce2 a{
+    text-decoration: none;
+    color: rgb(109, 105, 105);
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+section .concentration .astuce2 a:hover{
+    color: #b59e9e;
+}
+section .conclusion p{
+    font-size: 20px;
+    margin: 25px 10px;
+}
+@media only screen and (max-width: 600px) {
+    section{
+        width: 500px;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    section{
+        width: 300px;
+    }
+    header{
+        margin: 0;
+    }
+}
+@keyframes translate{
+    to {
+        transform: translateX(0);
+    }
+    from{
+        transform: translateX(-1000px);
+    }
+}
+@keyframes opacity{
+    to {
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
